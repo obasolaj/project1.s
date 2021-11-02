@@ -1,10 +1,10 @@
-  .data
+ 	.data
  	id: .space 10
-  .text
+  	.text
 main:
   li $v0, 8
-		la $a0, id
-		syscall
+	la $a0, id
+	syscall
 		
   
   
